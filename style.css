@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ca440fb0;
+}
+
+li {
+    list-style-type: none;
+    font-size: 22px;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+.navbar .logo {
+    color: #061a4e!important;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.navbar ul li {
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    font-size: 22px;
+    color: #061a4e;
+}
+
+.input_group .input,
+.input_group span {
+    padding: 15px 20px;
+}
+
+.input_group span {
+    background-color: #061a4e;
+    color: rgb(253, 116, 116);
+    cursor: pointer;
+}
+
+.product-item {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgb(226, 193, 193);
+    padding: 0;
+}
+
+.product-item h2 {
+    font-size: 22px;
+    padding: 0px 12px;
+}
+
+.col-md-3 {
+    width: 23%!important;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+
+/*product-deatails*/
+
+.product-details {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #222;
+    display: none;
+    margin-top: 50px;
+    border-radius: 10px!important;
+    overflow: hidden;
+}
+
+.showMeal {
+    display: block;
+}
+
+.product-ingradient h2 {
+    font-size: 28px;
+    margin: 20px 0px;
+    padding-left: 40px;
+}
+
+.product-ingradient h3 {
+    font-size: 22px;
+    margin: 10px 0px;
+    padding-left: 40px;
+}
+
+.product-close-btn {
+    font-size: 22px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-weight: bold;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+    outline: 0;
+    border: 0;
+}
+
+
+/*Not Found*/
+
+.unsuccess-box {
+    position: absolute;
+    background: #fff;
+    text-align: center;
+    padding: 50px 40px;
+    border-radius: 10px;
+    top: 30%;
+    display: none;
+    left: 30%;
+    width: 600px;
+}
+
+.unsuccess-box i {
+    font-size: 85px;
+    color: red;
+}
+
+.unsuccess-box h1 {
+    font-size: 30px;
+    margin: 8px 0px;
+}
+
+.confirm {
+    background: #3D2F64;
+    color: #fff;
+    text-align: center;
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.recipe-btn {
+    background: #3D2F64;
+    color: #fff;
+    text-align: center;
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.product-ingradient {
+    width: 600px;
+    height: 750px;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+}
+
+.product-ingradient img {
+    width: 100%;
+}
